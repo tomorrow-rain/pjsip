@@ -27,4 +27,4 @@ PJSIP视频通话客户端（计算机网络实验课程）
 
 ## 教程
 
-详细编译过程：
+详细编译过程：https://blog.csdn.net/Yuan_mingyu/article/details/122061858
