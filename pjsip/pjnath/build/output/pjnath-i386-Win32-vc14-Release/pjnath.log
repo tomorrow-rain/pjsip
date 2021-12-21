@@ -1,0 +1,14 @@
+﻿  errno.c
+  ice_session.c
+  ice_strans.c
+  nat_detect.c
+  stun_auth.c
+  stun_msg.c
+  stun_msg_dump.c
+  stun_session.c
+  stun_sock.c
+  stun_transaction.c
+  turn_session.c
+  turn_sock.c
+  Generating Code...
+  pjnath.vcxproj -> C:\MyProject\wlsy\pjproject-2.9\pjnath\build\..\lib\pjnath-i386-Win32-vc14-Release.lib

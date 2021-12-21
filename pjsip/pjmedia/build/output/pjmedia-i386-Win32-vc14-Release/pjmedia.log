@@ -1,0 +1,89 @@
+﻿  alaw_ulaw.c
+  alaw_ulaw_table.c
+  audiodev.c
+  avi_player.c
+  bidirectional.c
+  clock_thread.c
+  codec.c
+  conference.c
+  conf_switch.c
+  converter.c
+  converter_libswscale.c
+c:\myproject\wlsy\pjproject-2.9\ffmpeg-4.2.1-win32-dev\include\libavutil\rational.h : warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+c:\myproject\wlsy\pjproject-2.9\ffmpeg-4.2.1-win32-dev\include\libavutil\rational.h(73): warning C4204: nonstandard extension used: non-constant aggregate initializer
+c:\myproject\wlsy\pjproject-2.9\ffmpeg-4.2.1-win32-dev\include\libavutil\rational.h(161): warning C4204: nonstandard extension used: non-constant aggregate initializer
+  converter_libyuv.c
+  delaybuf.c
+  echo_common.c
+  echo_port.c
+  echo_speex.c
+  echo_suppress.c
+  echo_webrtc.c
+  endpoint.c
+  errno.c
+  Generating Code...
+  Compiling...
+  event.c
+  ffmpeg_util.c
+c:\myproject\wlsy\pjproject-2.9\ffmpeg-4.2.1-win32-dev\include\libavutil\rational.h : warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+c:\myproject\wlsy\pjproject-2.9\ffmpeg-4.2.1-win32-dev\include\libavutil\rational.h(73): warning C4204: nonstandard extension used: non-constant aggregate initializer
+c:\myproject\wlsy\pjproject-2.9\ffmpeg-4.2.1-win32-dev\include\libavutil\rational.h(161): warning C4204: nonstandard extension used: non-constant aggregate initializer
+  format.c
+..\src\pjmedia\format.c(129): warning C4100: 'assert_valid': unreferenced formal parameter
+  g711.c
+  jbuf.c
+  master_port.c
+  mem_capture.c
+  mem_player.c
+  null_port.c
+  plc_common.c
+  port.c
+  resample_libsamplerate.c
+  resample_port.c
+  resample_resample.c
+  resample_speex.c
+  rtcp.c
+  rtcp_fb.c
+  rtcp_xr.c
+  rtp.c
+  sdp.c
+..\src\pjmedia\sdp.c(1100): warning C4102: 'TODO___PARSE_SDP_CONN_ADDRESS_SUBFIELDS': unreferenced label
+  Generating Code...
+  Compiling...
+  sdp_cmp.c
+  sdp_neg.c
+..\src\pjmedia\sdp_neg.c(747): warning C4102: 'TODO___CHECK_SDP_NEGOTIATION_WHEN_ASYMETRIC_MEDIA_IS_ALLOWED': unreferenced label
+  silencedet.c
+  sound_legacy.c
+  sound_port.c
+  splitcomb.c
+  stereo_port.c
+  stream.c
+  stream_common.c
+  stream_info.c
+  tonegen.c
+  transport_adapter_sample.c
+  transport_ice.c
+  transport_loop.c
+  transport_srtp.c
+  transport_udp.c
+  types.c
+  videodev.c
+  vid_codec.c
+  vid_codec_util.c
+  Generating Code...
+  Compiling...
+  vid_conf.c
+  vid_port.c
+..\src\pjmedia\vid_port.c(795): warning C4456: declaration of 'status' hides previous local declaration
+  ..\src\pjmedia\vid_port.c(782): note: see declaration of 'status'
+  vid_stream.c
+  vid_stream_info.c
+  vid_tee.c
+  wave.c
+  wav_player.c
+  wav_playlist.c
+  wav_writer.c
+  wsola.c
+  Generating Code...
+  pjmedia.vcxproj -> C:\MyProject\wlsy\pjproject-2.9\pjmedia\build\..\lib\pjmedia-i386-Win32-vc14-Release.lib

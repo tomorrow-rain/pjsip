@@ -1,0 +1,20 @@
+﻿  aes.c
+  aes_icm.c
+  cipher.c
+  null_cipher.c
+  auth.c
+  hmac.c
+  null_auth.c
+  sha1.c
+  alloc.c
+  crypto_kernel.c
+  key.c
+  datatypes.c
+  stat.c
+  rdb.c
+  rdbx.c
+  srtp_err.c
+  ekt.c
+  srtp.c
+  Generating Code...
+  libsrtp.vcxproj -> C:\MyProject\wlsy\pjproject-2.9\third_party\build\srtp\..\..\lib\libsrtp-i386-Win32-vc14-Debug.lib

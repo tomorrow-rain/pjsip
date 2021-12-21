@@ -1,0 +1,29 @@
+﻿  base64.c
+  cli.c
+  cli_console.c
+  cli_telnet.c
+  crc32.c
+  dns.c
+  dns_dump.c
+  dns_server.c
+  errno.c
+  getopt.c
+  hmac_md5.c
+  hmac_sha1.c
+  http_client.c
+  json.c
+  md5.c
+  pcap.c
+  resolver.c
+  scanner.c
+  sha1.c
+  srv_resolver.c
+  Generating Code...
+  Compiling...
+  string.c
+  stun_simple.c
+  stun_simple_client.c
+  symbols.c
+  xml.c
+  Generating Code...
+  pjlib_util.vcxproj -> C:\MyProject\wlsy\pjproject-2.9\pjlib-util\build\..\lib\pjlib-util-i386-Win32-vc14-Debug.lib

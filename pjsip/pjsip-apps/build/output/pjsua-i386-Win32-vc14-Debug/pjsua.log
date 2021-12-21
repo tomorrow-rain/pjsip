@@ -1,0 +1,25 @@
+﻿  main.c
+c:\myproject\wlsy\pjproject-2.9\pjsip-apps\src\pjsua\pjsua_app.h : warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+C:\MyProject\wlsy\pjproject-2.9\pjmedia\include\pjmedia-codec/g7221.h : warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+  pjsua_app.c
+c:\myproject\wlsy\pjproject-2.9\pjsip-apps\src\pjsua\pjsua_app.h : warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+C:\MyProject\wlsy\pjproject-2.9\pjmedia\include\pjmedia-codec/g7221.h : warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+  pjsua_app_cli.c
+C:\MyProject\wlsy\pjproject-2.9\pjmedia\include\pjmedia-codec/g7221.h : warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+..\src\pjsua\pjsua_app_cli.c(2504): warning C4456: declaration of 's' hides previous local declaration
+  ..\src\pjsua\pjsua_app_cli.c(2492): note: see declaration of 's'
+..\src\pjsua\pjsua_app_cli.c(2512): warning C4456: declaration of 's' hides previous local declaration
+  ..\src\pjsua\pjsua_app_cli.c(2492): note: see declaration of 's'
+  pjsua_app_common.c
+C:\MyProject\wlsy\pjproject-2.9\pjmedia\include\pjmedia-codec/g7221.h : warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+  pjsua_app_config.c
+C:\MyProject\wlsy\pjproject-2.9\pjmedia\include\pjmedia-codec/g7221.h : warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+  pjsua_app_legacy.c
+C:\MyProject\wlsy\pjproject-2.9\pjmedia\include\pjmedia-codec/g7221.h : warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+..\src\pjsua\pjsua_app_legacy.c(628): warning C4456: declaration of 's' hides previous local declaration
+  ..\src\pjsua\pjsua_app_legacy.c(616): note: see declaration of 's'
+..\src\pjsua\pjsua_app_legacy.c(636): warning C4456: declaration of 's' hides previous local declaration
+  ..\src\pjsua\pjsua_app_legacy.c(616): note: see declaration of 's'
+  Generating Code...
+  pjsua.vcxproj -> C:\MyProject\wlsy\pjproject-2.9\pjsip-apps\build\..\bin\pjsua-i386-Win32-vc14-Debug.exe
+  pjsua.vcxproj -> .\output\pjsua-i386-Win32-vc14-Debug\pjsua-i386-Win32-vc14-Debug.pdb (Full PDB)

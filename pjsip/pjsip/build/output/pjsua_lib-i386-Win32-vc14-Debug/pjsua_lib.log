@@ -1,0 +1,22 @@
+﻿  pjsua_acc.c
+C:\MyProject\wlsy\pjproject-2.9\pjmedia\include\pjmedia-codec/g7221.h : warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+  pjsua_aud.c
+C:\MyProject\wlsy\pjproject-2.9\pjmedia\include\pjmedia-codec/g7221.h : warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+  pjsua_call.c
+C:\MyProject\wlsy\pjproject-2.9\pjmedia\include\pjmedia-codec/g7221.h : warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+..\src\pjsua-lib\pjsua_call.c(4323): warning C4102: 'TODO___HANDLE_FORKED_DIALOG': unreferenced label
+  pjsua_core.c
+C:\MyProject\wlsy\pjproject-2.9\pjmedia\include\pjmedia-codec/g7221.h : warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+..\src\pjsua-lib\pjsua_core.c(2850): warning C4102: 'TODO___pjsua_transport_set_enable': unreferenced label
+  pjsua_dump.c
+C:\MyProject\wlsy\pjproject-2.9\pjmedia\include\pjmedia-codec/g7221.h : warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+  pjsua_im.c
+C:\MyProject\wlsy\pjproject-2.9\pjmedia\include\pjmedia-codec/g7221.h : warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+  pjsua_media.c
+C:\MyProject\wlsy\pjproject-2.9\pjmedia\include\pjmedia-codec/g7221.h : warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+  pjsua_pres.c
+C:\MyProject\wlsy\pjproject-2.9\pjmedia\include\pjmedia-codec/g7221.h : warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+  pjsua_vid.c
+C:\MyProject\wlsy\pjproject-2.9\pjmedia\include\pjmedia-codec/g7221.h : warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+  Generating Code...
+  pjsua_lib.vcxproj -> C:\MyProject\wlsy\pjproject-2.9\pjsip\build\..\lib\pjsua-lib-i386-Win32-vc14-Debug.lib

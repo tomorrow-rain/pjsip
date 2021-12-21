@@ -1,0 +1,20 @@
+﻿  account.cpp
+C:\MyProject\wlsy\pjproject-2.9\pjmedia\include\pjmedia-codec/g7221.h : warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+  call.cpp
+C:\MyProject\wlsy\pjproject-2.9\pjmedia\include\pjmedia-codec/g7221.h : warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+  endpoint.cpp
+C:\MyProject\wlsy\pjproject-2.9\pjmedia\include\pjmedia-codec/g7221.h : warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+  json.cpp
+C:\MyProject\wlsy\pjproject-2.9\pjmedia\include\pjmedia-codec/g7221.h : warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+  media.cpp
+C:\MyProject\wlsy\pjproject-2.9\pjmedia\include\pjmedia-codec/g7221.h : warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+  persistent.cpp
+C:\MyProject\wlsy\pjproject-2.9\pjmedia\include\pjmedia-codec/g7221.h : warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+  presence.cpp
+C:\MyProject\wlsy\pjproject-2.9\pjmedia\include\pjmedia-codec/g7221.h : warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+  siptypes.cpp
+C:\MyProject\wlsy\pjproject-2.9\pjmedia\include\pjmedia-codec/g7221.h : warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+  types.cpp
+C:\MyProject\wlsy\pjproject-2.9\pjmedia\include\pjmedia-codec/g7221.h : warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+  Generating Code...
+  pjsua2_lib.vcxproj -> C:\MyProject\wlsy\pjproject-2.9\pjsip\build\..\lib\pjsua2-lib-i386-Win32-vc14-Debug.lib

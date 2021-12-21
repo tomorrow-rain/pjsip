@@ -1,0 +1,12 @@
+﻿  amfilter.cpp
+  amvideo.cpp
+  arithutil.cpp
+  combase.cpp
+  ctlutil.cpp
+  mtype.cpp
+  renbase.cpp
+  wxdebug.cpp
+  wxlist.cpp
+  wxutil.cpp
+  Generating Code...
+  libbaseclasses.vcxproj -> C:\MyProject\wlsy\pjproject-2.9\third_party\build\baseclasses\..\..\lib\libbaseclasses-i386-Win32-vc14-Debug.lib

@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{4FADDE86-49D7-37E9-AF11-F5E1C4E12E48}</ProjectGuid>
+    <RootNamespace>yuanmingyu</RootNamespace>
+    <Keyword>Qt4VSv1.0</Keyword>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <PlatformToolset>v141</PlatformToolset>
+    <OutputDirectory>debug\</OutputDirectory>
+    <ATLMinimizesCRunTimeLibraryUsage>false</ATLMinimizesCRunTimeLibraryUsage>
+    <CharacterSet>NotSet</CharacterSet>
+    <ConfigurationType>Application</ConfigurationType>
+    <IntermediateDirectory>debug\</IntermediateDirectory>
+    <PrimaryOutput>yuanmingyu</PrimaryOutput>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <PlatformToolset>v141</PlatformToolset>
+    <OutputDirectory>release\</OutputDirectory>
+    <ATLMinimizesCRunTimeLibraryUsage>false</ATLMinimizesCRunTimeLibraryUsage>
+    <CharacterSet>NotSet</CharacterSet>
+    <ConfigurationType>Application</ConfigurationType>
+    <IntermediateDirectory>release\</IntermediateDirectory>
+    <PrimaryOutput>yuanmingyu</PrimaryOutput>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings" />
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">debug\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">debug\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">yuanmingyu</TargetName>
+    <IgnoreImportLibrary Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</IgnoreImportLibrary>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">release\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">release\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">yuanmingyu</TargetName>
+    <IgnoreImportLibrary Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</IgnoreImportLibrary>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\MyProject\wlsy\pjproject-2.9\SDL2-2.0.12\include;C:\MyProject\wlsy\pjproject-2.9\ffmpeg-4.2.1-win32-dev\include;.;..\..\..\pjlib\include;..\..\..\pjlib-util\include;..\..\..\pjnath\include;..\..\..\pjmedia\include;..\..\..\pjsip\include;D:\Qt\Qt5.9.9\5.9.9\msvc2015\include;D:\Qt\Qt5.9.9\5.9.9\msvc2015\include\QtWidgets;D:\Qt\Qt5.9.9\5.9.9\msvc2015\include\QtGui;D:\Qt\Qt5.9.9\5.9.9\msvc2015\include\QtANGLE;D:\Qt\Qt5.9.9\5.9.9\msvc2015\include\QtCore;debug;D:\Qt\Qt5.9.9\5.9.9\msvc2015\mkspecs\win32-msvc;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>-Zc:rvalueCast -Zc:inline -Zc:strictStrings -Zc:throwingNew -Zc:referenceBinding -w34100 -w34189 -w44996 -w44456 -w44457 -w44458 %(AdditionalOptions)</AdditionalOptions>
+      <AssemblerListingLocation>debug\</AssemblerListingLocation>
+      <BrowseInformation>false</BrowseInformation>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <DisableSpecificWarnings>4577;4467;%(DisableSpecificWarnings)</DisableSpecificWarnings>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <ObjectFileName>debug\</ObjectFileName>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>_WINDOWS;UNICODE;_UNICODE;WIN32;PJ_WIN32=1;QT_WIDGETS_LIB;QT_GUI_LIB;QT_CORE_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessToFile>false</PreprocessToFile>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <TreatWChar_tAsBuiltInType>true</TreatWChar_tAsBuiltInType>
+      <WarningLevel>Level3</WarningLevel>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies>D:\Qt\Qt5.9.9\5.9.9\msvc2015\lib\qtmaind.lib;shell32.lib;..\..\..\lib\libpjproject-i386-Win32-vc14-Debug.lib;Iphlpapi.lib;dsound.lib;dxguid.lib;netapi32.lib;mswsock.lib;ws2_32.lib;odbc32.lib;odbccp32.lib;ole32.lib;user32.lib;gdi32.lib;advapi32.lib;D:\Qt\Qt5.9.9\5.9.9\msvc2015\lib\Qt5Widgetsd.lib;D:\Qt\Qt5.9.9\5.9.9\msvc2015\lib\Qt5Guid.lib;D:\Qt\Qt5.9.9\5.9.9\msvc2015\lib\Qt5Cored.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>C:\MyProject\wlsy\pjproject-2.9\SDL2-2.0.12\lib\x86;C:\MyProject\wlsy\pjproject-2.9\ffmpeg-4.2.1-win32-dev\lib;D:\Qt\Qt5.9.9\5.9.9\msvc2015\lib;C:\opensslx86\lib;C:\Utils\my_sql\my_sqlx86\lib;C:\Utils\postgresqlx86\pgsql\lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>"/MANIFESTDEPENDENCY:type='win32' name='Microsoft.Windows.Common-Controls' version='6.0.0.0' publicKeyToken='6595b64144ccf1df' language='*' processorArchitecture='*'" /SAFESEH:NO %(AdditionalOptions)</AdditionalOptions>
+      <DataExecutionPrevention>true</DataExecutionPrevention>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreImportLibrary>true</IgnoreImportLibrary>
+      <OutputFile>$(OutDir)\yuanmingyu.exe</OutputFile>
+      <RandomizedBaseAddress>true</RandomizedBaseAddress>
+      <SubSystem>Windows</SubSystem>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+    </Link>
+    <Midl>
+      <DefaultCharType>Unsigned</DefaultCharType>
+      <EnableErrorChecks>None</EnableErrorChecks>
+      <WarningLevel>0</WarningLevel>
+    </Midl>
+    <ResourceCompile>
+      <PreprocessorDefinitions>_WINDOWS;UNICODE;_UNICODE;WIN32;PJ_WIN32=1;QT_WIDGETS_LIB;QT_GUI_LIB;QT_CORE_LIB;_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ResourceCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\MyProject\wlsy\pjproject-2.9\SDL2-2.0.12\include;C:\MyProject\wlsy\pjproject-2.9\ffmpeg-4.2.1-win32-dev\include;.;..\..\..\pjlib\include;..\..\..\pjlib-util\include;..\..\..\pjnath\include;..\..\..\pjmedia\include;..\..\..\pjsip\include;D:\Qt\Qt5.9.9\5.9.9\msvc2015\include;D:\Qt\Qt5.9.9\5.9.9\msvc2015\include\QtWidgets;D:\Qt\Qt5.9.9\5.9.9\msvc2015\include\QtGui;D:\Qt\Qt5.9.9\5.9.9\msvc2015\include\QtANGLE;D:\Qt\Qt5.9.9\5.9.9\msvc2015\include\QtCore;release;D:\Qt\Qt5.9.9\5.9.9\msvc2015\mkspecs\win32-msvc;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>-Zc:rvalueCast -Zc:inline -Zc:strictStrings -Zc:throwingNew -Zc:referenceBinding -w34100 -w34189 -w44996 -w44456 -w44457 -w44458 %(AdditionalOptions)</AdditionalOptions>
+      <AssemblerListingLocation>release\</AssemblerListingLocation>
+      <BrowseInformation>false</BrowseInformation>
+      <DebugInformationFormat>None</DebugInformationFormat>
+      <DisableSpecificWarnings>4577;4467;%(DisableSpecificWarnings)</DisableSpecificWarnings>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <ObjectFileName>release\</ObjectFileName>
+      <Optimization>MaxSpeed</Optimization>
+      <PreprocessorDefinitions>_WINDOWS;UNICODE;_UNICODE;WIN32;PJ_WIN32=1;QT_NO_DEBUG;QT_WIDGETS_LIB;QT_GUI_LIB;QT_CORE_LIB;NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessToFile>false</PreprocessToFile>
+      <ProgramDataBaseFileName>
+      </ProgramDataBaseFileName>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <TreatWChar_tAsBuiltInType>true</TreatWChar_tAsBuiltInType>
+      <WarningLevel>Level3</WarningLevel>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies>D:\Qt\Qt5.9.9\5.9.9\msvc2015\lib\qtmain.lib;shell32.lib;..\..\..\lib\libpjproject-i386-Win32-vc14-Debug.lib;Iphlpapi.lib;dsound.lib;dxguid.lib;netapi32.lib;mswsock.lib;ws2_32.lib;odbc32.lib;odbccp32.lib;ole32.lib;user32.lib;gdi32.lib;advapi32.lib;D:\Qt\Qt5.9.9\5.9.9\msvc2015\lib\Qt5Widgets.lib;D:\Qt\Qt5.9.9\5.9.9\msvc2015\lib\Qt5Gui.lib;D:\Qt\Qt5.9.9\5.9.9\msvc2015\lib\Qt5Core.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>C:\MyProject\wlsy\pjproject-2.9\SDL2-2.0.12\lib\x86;C:\MyProject\wlsy\pjproject-2.9\ffmpeg-4.2.1-win32-dev\lib;D:\Qt\Qt5.9.9\5.9.9\msvc2015\lib;C:\opensslx86\lib;C:\Utils\my_sql\my_sqlx86\lib;C:\Utils\postgresqlx86\pgsql\lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>"/MANIFESTDEPENDENCY:type='win32' name='Microsoft.Windows.Common-Controls' version='6.0.0.0' publicKeyToken='6595b64144ccf1df' language='*' processorArchitecture='*'" /SAFESEH:NO %(AdditionalOptions)</AdditionalOptions>
+      <DataExecutionPrevention>true</DataExecutionPrevention>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreImportLibrary>true</IgnoreImportLibrary>
+      <LinkIncremental>false</LinkIncremental>
+      <OutputFile>$(OutDir)\yuanmingyu.exe</OutputFile>
+      <RandomizedBaseAddress>true</RandomizedBaseAddress>
+      <SubSystem>Windows</SubSystem>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+    </Link>
+    <Midl>
+      <DefaultCharType>Unsigned</DefaultCharType>
+      <EnableErrorChecks>None</EnableErrorChecks>
+      <WarningLevel>0</WarningLevel>
+    </Midl>
+    <ResourceCompile>
+      <PreprocessorDefinitions>_WINDOWS;UNICODE;_UNICODE;WIN32;PJ_WIN32=1;QT_NO_DEBUG;QT_WIDGETS_LIB;QT_GUI_LIB;QT_CORE_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ResourceCompile>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="vidgui.cpp" />
+    <ClCompile Include="vidwin.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="vidgui.h">
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">vidgui.h;debug\moc_predefs.h;D:\Qt\Qt5.9.9\5.9.9\msvc2015\bin\moc.exe;%(AdditionalInputs)</AdditionalInputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">D:\Qt\Qt5.9.9\5.9.9\msvc2015\bin\moc.exe  -DUNICODE -D_UNICODE -DWIN32 -DPJ_WIN32=1 -DQT_WIDGETS_LIB -DQT_GUI_LIB -DQT_CORE_LIB --compiler-flavor=msvc --include debug/moc_predefs.h -ID:/Qt/Qt5.9.9/5.9.9/msvc2015/mkspecs/win32-msvc -IC:/MyProject/wlsy/pjproject-2.9/pjsip-apps/src/vidgui -IC:/MyProject/wlsy/pjproject-2.9/pjlib/include -IC:/MyProject/wlsy/pjproject-2.9/pjlib-util/include -IC:/MyProject/wlsy/pjproject-2.9/pjnath/include -IC:/MyProject/wlsy/pjproject-2.9/pjmedia/include -IC:/MyProject/wlsy/pjproject-2.9/pjsip/include -ID:/Qt/Qt5.9.9/5.9.9/msvc2015/include -ID:/Qt/Qt5.9.9/5.9.9/msvc2015/include/QtWidgets -ID:/Qt/Qt5.9.9/5.9.9/msvc2015/include/QtGui -ID:/Qt/Qt5.9.9/5.9.9/msvc2015/include/QtANGLE -ID:/Qt/Qt5.9.9/5.9.9/msvc2015/include/QtCore vidgui.h -o debug\moc_vidgui.cpp</Command>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">MOC vidgui.h</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">debug\moc_vidgui.cpp;%(Outputs)</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">vidgui.h;release\moc_predefs.h;D:\Qt\Qt5.9.9\5.9.9\msvc2015\bin\moc.exe;%(AdditionalInputs)</AdditionalInputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">D:\Qt\Qt5.9.9\5.9.9\msvc2015\bin\moc.exe  -DUNICODE -D_UNICODE -DWIN32 -DPJ_WIN32=1 -DQT_NO_DEBUG -DQT_WIDGETS_LIB -DQT_GUI_LIB -DQT_CORE_LIB --compiler-flavor=msvc --include release/moc_predefs.h -ID:/Qt/Qt5.9.9/5.9.9/msvc2015/mkspecs/win32-msvc -IC:/MyProject/wlsy/pjproject-2.9/pjsip-apps/src/vidgui -IC:/MyProject/wlsy/pjproject-2.9/pjlib/include -IC:/MyProject/wlsy/pjproject-2.9/pjlib-util/include -IC:/MyProject/wlsy/pjproject-2.9/pjnath/include -IC:/MyProject/wlsy/pjproject-2.9/pjmedia/include -IC:/MyProject/wlsy/pjproject-2.9/pjsip/include -ID:/Qt/Qt5.9.9/5.9.9/msvc2015/include -ID:/Qt/Qt5.9.9/5.9.9/msvc2015/include/QtWidgets -ID:/Qt/Qt5.9.9/5.9.9/msvc2015/include/QtGui -ID:/Qt/Qt5.9.9/5.9.9/msvc2015/include/QtANGLE -ID:/Qt/Qt5.9.9/5.9.9/msvc2015/include/QtCore vidgui.h -o release\moc_vidgui.cpp</Command>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">MOC vidgui.h</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">release\moc_vidgui.cpp;%(Outputs)</Outputs>
+    </CustomBuild>
+    <CustomBuild Include="vidwin.h">
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">vidwin.h;debug\moc_predefs.h;D:\Qt\Qt5.9.9\5.9.9\msvc2015\bin\moc.exe;%(AdditionalInputs)</AdditionalInputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">D:\Qt\Qt5.9.9\5.9.9\msvc2015\bin\moc.exe  -DUNICODE -D_UNICODE -DWIN32 -DPJ_WIN32=1 -DQT_WIDGETS_LIB -DQT_GUI_LIB -DQT_CORE_LIB --compiler-flavor=msvc --include debug/moc_predefs.h -ID:/Qt/Qt5.9.9/5.9.9/msvc2015/mkspecs/win32-msvc -IC:/MyProject/wlsy/pjproject-2.9/pjsip-apps/src/vidgui -IC:/MyProject/wlsy/pjproject-2.9/pjlib/include -IC:/MyProject/wlsy/pjproject-2.9/pjlib-util/include -IC:/MyProject/wlsy/pjproject-2.9/pjnath/include -IC:/MyProject/wlsy/pjproject-2.9/pjmedia/include -IC:/MyProject/wlsy/pjproject-2.9/pjsip/include -ID:/Qt/Qt5.9.9/5.9.9/msvc2015/include -ID:/Qt/Qt5.9.9/5.9.9/msvc2015/include/QtWidgets -ID:/Qt/Qt5.9.9/5.9.9/msvc2015/include/QtGui -ID:/Qt/Qt5.9.9/5.9.9/msvc2015/include/QtANGLE -ID:/Qt/Qt5.9.9/5.9.9/msvc2015/include/QtCore vidwin.h -o debug\moc_vidwin.cpp</Command>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">MOC vidwin.h</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">debug\moc_vidwin.cpp;%(Outputs)</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">vidwin.h;release\moc_predefs.h;D:\Qt\Qt5.9.9\5.9.9\msvc2015\bin\moc.exe;%(AdditionalInputs)</AdditionalInputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">D:\Qt\Qt5.9.9\5.9.9\msvc2015\bin\moc.exe  -DUNICODE -D_UNICODE -DWIN32 -DPJ_WIN32=1 -DQT_NO_DEBUG -DQT_WIDGETS_LIB -DQT_GUI_LIB -DQT_CORE_LIB --compiler-flavor=msvc --include release/moc_predefs.h -ID:/Qt/Qt5.9.9/5.9.9/msvc2015/mkspecs/win32-msvc -IC:/MyProject/wlsy/pjproject-2.9/pjsip-apps/src/vidgui -IC:/MyProject/wlsy/pjproject-2.9/pjlib/include -IC:/MyProject/wlsy/pjproject-2.9/pjlib-util/include -IC:/MyProject/wlsy/pjproject-2.9/pjnath/include -IC:/MyProject/wlsy/pjproject-2.9/pjmedia/include -IC:/MyProject/wlsy/pjproject-2.9/pjsip/include -ID:/Qt/Qt5.9.9/5.9.9/msvc2015/include -ID:/Qt/Qt5.9.9/5.9.9/msvc2015/include/QtWidgets -ID:/Qt/Qt5.9.9/5.9.9/msvc2015/include/QtGui -ID:/Qt/Qt5.9.9/5.9.9/msvc2015/include/QtANGLE -ID:/Qt/Qt5.9.9/5.9.9/msvc2015/include/QtCore vidwin.h -o release\moc_vidwin.cpp</Command>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">MOC vidwin.h</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">release\moc_vidwin.cpp;%(Outputs)</Outputs>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="debug\moc_predefs.h.cbt">
+      <FileType>Document</FileType>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">D:\Qt\Qt5.9.9\5.9.9\msvc2015\mkspecs\features\data\dummy.cpp;%(AdditionalInputs)</AdditionalInputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">cl -BxD:\Qt\Qt5.9.9\5.9.9\msvc2015\bin\qmake.exe -nologo -Zc:wchar_t -FS -Zc:rvalueCast -Zc:inline -Zc:strictStrings -Zc:throwingNew -Zc:referenceBinding -Zi -MDd -W3 -w34100 -w34189 -w44996 -w44456 -w44457 -w44458 -wd4577 -wd4467 -E D:\Qt\Qt5.9.9\5.9.9\msvc2015\mkspecs\features\data\dummy.cpp 2&gt;NUL &gt;debug\moc_predefs.h</Command>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Generate moc_predefs.h</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">debug\moc_predefs.h;%(Outputs)</Outputs>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+    </CustomBuild>
+    <CustomBuild Include="release\moc_predefs.h.cbt">
+      <FileType>Document</FileType>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">D:\Qt\Qt5.9.9\5.9.9\msvc2015\mkspecs\features\data\dummy.cpp;%(AdditionalInputs)</AdditionalInputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">cl -BxD:\Qt\Qt5.9.9\5.9.9\msvc2015\bin\qmake.exe -nologo -Zc:wchar_t -FS -Zc:rvalueCast -Zc:inline -Zc:strictStrings -Zc:throwingNew -Zc:referenceBinding -O2 -MD -W3 -w34100 -w34189 -w44996 -w44456 -w44457 -w44458 -wd4577 -wd4467 -E D:\Qt\Qt5.9.9\5.9.9\msvc2015\mkspecs\features\data\dummy.cpp 2&gt;NUL &gt;release\moc_predefs.h</Command>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Generate moc_predefs.h</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">release\moc_predefs.h;%(Outputs)</Outputs>
+    </CustomBuild>
+    <ClCompile Include="debug\moc_vidgui.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="release\moc_vidgui.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="debug\moc_vidwin.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="release\moc_vidwin.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets" />
+</Project>

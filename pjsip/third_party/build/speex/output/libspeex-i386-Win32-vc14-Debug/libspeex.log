@@ -1,0 +1,30 @@
+﻿  bits.c
+  cb_search.c
+  fftwrap.c
+  filterbank.c
+  filters.c
+  kiss_fft.c
+  kiss_fftr.c
+  lpc.c
+  lsp.c
+  ltp.c
+  mdf.c
+  modes.c
+  modes_wb.c
+  nb_celp.c
+  preprocess.c
+  quant_lsp.c
+  resample.c
+  sb_celp.c
+  smallft.c
+  speex.c
+  Generating Code...
+  Compiling...
+  speex_callbacks.c
+  speex_header.c
+  stereo.c
+  vbr.c
+  vq.c
+  window.c
+  Generating Code...
+  libspeex.vcxproj -> C:\MyProject\wlsy\pjproject-2.9\third_party\build\speex\..\..\lib\libspeex-i386-Win32-vc14-Debug.lib

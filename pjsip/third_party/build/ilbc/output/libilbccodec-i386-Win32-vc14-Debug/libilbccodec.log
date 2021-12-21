@@ -1,0 +1,27 @@
+﻿  anaFilter.c
+  constants.c
+  createCB.c
+  doCPLC.c
+  enhancer.c
+  filter.c
+  FrameClassify.c
+  gainquant.c
+  getCBvec.c
+  helpfun.c
+  hpInput.c
+  hpOutput.c
+  iCBConstruct.c
+  iCBSearch.c
+  iLBC_decode.c
+  iLBC_encode.c
+  LPCdecode.c
+  LPCencode.c
+  lsf.c
+  packing.c
+  Generating Code...
+  Compiling...
+  StateConstructW.c
+  StateSearchW.c
+  syntFilter.c
+  Generating Code...
+  libilbccodec.vcxproj -> C:\MyProject\wlsy\pjproject-2.9\third_party\build\ilbc\..\..\lib\libilbccodec-i386-Win32-vc14-Debug.lib

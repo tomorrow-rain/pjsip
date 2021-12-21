@@ -1,0 +1,10 @@
+﻿  sip_100rel.c
+  sip_inv.c
+  sip_reg.c
+  sip_replaces.c
+..\src\pjsip-ua\sip_replaces.c(167): warning C4102: 'TODO___provide_initialized_flag_for_each_endpoint': unreferenced label
+  sip_timer.c
+..\src\pjsip-ua\sip_timer.c(547): warning C4102: 'TODO___provide_initialized_flag_for_each_endpoint': unreferenced label
+  sip_xfer.c
+  Generating Code...
+  pjsip_ua.vcxproj -> C:\MyProject\wlsy\pjproject-2.9\pjsip\build\..\lib\pjsip-ua-i386-Win32-vc14-Release.lib

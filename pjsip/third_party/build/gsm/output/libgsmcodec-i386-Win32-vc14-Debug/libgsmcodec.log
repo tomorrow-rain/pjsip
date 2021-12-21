@@ -1,0 +1,20 @@
+﻿  add.c
+  code.c
+  debug.c
+  decode.c
+  gsm_create.c
+  gsm_decode.c
+  gsm_destroy.c
+  gsm_encode.c
+  gsm_explode.c
+  gsm_implode.c
+  gsm_option.c
+  gsm_print.c
+  long_term.c
+  lpc.c
+  preprocess.c
+  rpe.c
+  short_term.c
+  table.c
+  Generating Code...
+  libgsmcodec.vcxproj -> C:\MyProject\wlsy\pjproject-2.9\third_party\build\gsm\..\..\lib\libgsmcodec-i386-Win32-vc14-Debug.lib

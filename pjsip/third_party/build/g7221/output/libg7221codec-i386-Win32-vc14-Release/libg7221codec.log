@@ -1,0 +1,42 @@
+﻿  basic_op.c
+  common.c
+..\..\g7221\common\common.c : warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+c:\myproject\wlsy\pjproject-2.9\third_party\g7221\common\defs.h : warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+c:\myproject\wlsy\pjproject-2.9\third_party\g7221\common\huff_def.h : warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+c:\myproject\wlsy\pjproject-2.9\third_party\g7221\common\huff_tab.h : warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+c:\myproject\wlsy\pjproject-2.9\third_party\g7221\common\tables.h : warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+  huff_tab.c
+..\..\g7221\common\huff_tab.c : warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+c:\myproject\wlsy\pjproject-2.9\third_party\g7221\common\defs.h : warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+c:\myproject\wlsy\pjproject-2.9\third_party\g7221\common\huff_def.h : warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+  tables.c
+..\..\g7221\common\tables.c : warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+c:\myproject\wlsy\pjproject-2.9\third_party\g7221\common\defs.h : warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+  coef2sam.c
+..\..\g7221\decode\coef2sam.c : warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+C:\MyProject\wlsy\pjproject-2.9\third_party\g7221\common\defs.h : warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+C:\MyProject\wlsy\pjproject-2.9\third_party\g7221\common\tables.h : warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+  dct4_s.c
+..\..\g7221\decode\dct4_s.c : warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+C:\MyProject\wlsy\pjproject-2.9\third_party\g7221\common\defs.h : warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+c:\myproject\wlsy\pjproject-2.9\third_party\g7221\decode\dct4_s.h : warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+  decoder.c
+..\..\g7221\decode\decoder.c : warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+C:\MyProject\wlsy\pjproject-2.9\third_party\g7221\common\defs.h : warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+C:\MyProject\wlsy\pjproject-2.9\third_party\g7221\common\tables.h : warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+C:\MyProject\wlsy\pjproject-2.9\third_party\g7221\common\huff_def.h : warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+  dct4_a.c
+..\..\g7221\encode\dct4_a.c : warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+C:\MyProject\wlsy\pjproject-2.9\third_party\g7221\common\defs.h : warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+c:\myproject\wlsy\pjproject-2.9\third_party\g7221\encode\dct4_a.h : warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+  encoder.c
+..\..\g7221\encode\encoder.c : warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+C:\MyProject\wlsy\pjproject-2.9\third_party\g7221\common\defs.h : warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+C:\MyProject\wlsy\pjproject-2.9\third_party\g7221\common\huff_def.h : warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+C:\MyProject\wlsy\pjproject-2.9\third_party\g7221\common\tables.h : warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+  sam2coef.c
+..\..\g7221\encode\sam2coef.c : warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+C:\MyProject\wlsy\pjproject-2.9\third_party\g7221\common\defs.h : warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+C:\MyProject\wlsy\pjproject-2.9\third_party\g7221\common\tables.h : warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+  Generating Code...
+  libg7221codec.vcxproj -> C:\MyProject\wlsy\pjproject-2.9\third_party\build\g7221\..\..\lib\libg7221codec-i386-Win32-vc14-Release.lib

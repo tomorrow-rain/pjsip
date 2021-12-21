@@ -1,0 +1,14 @@
+﻿  amfilter.cpp
+  amvideo.cpp
+  arithutil.cpp
+  combase.cpp
+..\..\BaseClasses\combase.cpp(168): warning C4189: 'lRef': local variable is initialized but not referenced
+  ctlutil.cpp
+..\..\BaseClasses\ctlutil.cpp(2379): warning C4189: 'hr': local variable is initialized but not referenced
+  mtype.cpp
+  renbase.cpp
+  wxdebug.cpp
+  wxlist.cpp
+  wxutil.cpp
+  Generating Code...
+  libbaseclasses.vcxproj -> C:\MyProject\wlsy\pjproject-2.9\third_party\build\baseclasses\..\..\lib\libbaseclasses-i386-Win32-vc14-Release.lib

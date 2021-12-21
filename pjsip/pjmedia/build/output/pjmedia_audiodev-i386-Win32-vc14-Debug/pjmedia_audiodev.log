@@ -1,0 +1,10 @@
+﻿  audiodev.c
+  audiotest.c
+  bdimad_dev.c
+  errno.c
+  legacy_dev.c
+  null_dev.c
+  pa_dev.c
+  wmme_dev.c
+  Generating Code...
+  pjmedia_audiodev.vcxproj -> C:\MyProject\wlsy\pjproject-2.9\pjmedia\build\..\lib\pjmedia-audiodev-i386-Win32-vc14-Debug.lib

@@ -1,0 +1,2 @@
+﻿LINK : warning LNK4098: 默认库“LIBCMTD”与其他库的使用冲突；请使用 /NODEFAULTLIB:library
+  yuanmingyu.vcxproj -> C:\MyProject\wlsy\pjproject-2.9\pjsip-apps\src\vidgui\debug\yuanmingyu.exe

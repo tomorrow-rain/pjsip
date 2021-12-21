@@ -1,0 +1,10 @@
+﻿  avi_dev.c
+  colorbar_dev.c
+  dshow_dev.c
+  errno.c
+  ffmpeg_dev.c
+  sdl_dev.c
+  videodev.c
+  Generating Code...
+  dshowclasses.cpp
+  pjmedia_videodev.vcxproj -> C:\MyProject\wlsy\pjproject-2.9\pjmedia\build\..\lib\pjmedia-videodev-i386-Win32-vc14-Release.lib

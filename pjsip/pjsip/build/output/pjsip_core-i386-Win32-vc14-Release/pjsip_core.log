@@ -1,0 +1,33 @@
+﻿  sip_auth_aka.c
+  sip_auth_client.c
+..\src\pjsip\sip_auth_client.c(550): warning C4102: 'TODO___FULL_CLONE_OF_AUTH_CLIENT_SESSION': unreferenced label
+  sip_auth_msg.c
+  sip_auth_parser.c
+  sip_auth_server.c
+  sip_config.c
+  sip_dialog.c
+..\src\pjsip\sip_dialog.c(545): warning C4102: 'TODO___DIALOG_APP_TIMER': unreferenced label
+  sip_endpoint.c
+  sip_errno.c
+  sip_msg.c
+  sip_multipart.c
+  sip_parser.c
+  sip_resolve.c
+..\src\pjsip\sip_resolve.c(414): warning C4102: 'TODO___SUPPORT_DNS_NAPTR': unreferenced label
+  sip_tel_uri.c
+  sip_transaction.c
+  sip_transport.c
+  sip_transport_loop.c
+  sip_transport_tcp.c
+  sip_transport_tls.c
+  sip_transport_udp.c
+  Generating Code...
+  Compiling...
+  sip_ua_layer.c
+  sip_uri.c
+  sip_util.c
+..\src\pjsip\sip_util.c(868): warning C4102: 'TODO___SUPPORT_REQUEST_ADDR_RESOLUTION_FOR_TEL_URI': unreferenced label
+  sip_util_proxy.c
+  sip_util_statefull.c
+  Generating Code...
+  pjsip_core.vcxproj -> C:\MyProject\wlsy\pjproject-2.9\pjsip\build\..\lib\pjsip-core-i386-Win32-vc14-Release.lib

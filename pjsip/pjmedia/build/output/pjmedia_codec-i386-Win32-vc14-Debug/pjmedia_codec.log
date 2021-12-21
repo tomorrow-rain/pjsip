@@ -1,0 +1,30 @@
+﻿  amr_sdp_match.c
+  audio_codecs.c
+C:\MyProject\wlsy\pjproject-2.9\pjmedia\include\pjmedia-codec/g7221.h : warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+  bcg729.c
+  ffmpeg_vid_codecs.c
+c:\myproject\wlsy\pjproject-2.9\ffmpeg-4.2.1-win32-dev\include\libavutil\rational.h : warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+c:\myproject\wlsy\pjproject-2.9\ffmpeg-4.2.1-win32-dev\include\libavutil\rational.h(73): warning C4204: nonstandard extension used: non-constant aggregate initializer
+c:\myproject\wlsy\pjproject-2.9\ffmpeg-4.2.1-win32-dev\include\libavutil\rational.h(161): warning C4204: nonstandard extension used: non-constant aggregate initializer
+..\src\pjmedia-codec\ffmpeg_vid_codecs.c(683): warning C4456: declaration of 'fmt_id' hides previous local declaration
+  ..\src\pjmedia-codec\ffmpeg_vid_codecs.c(635): note: see declaration of 'fmt_id'
+  g722.c
+  g7221.c
+C:\MyProject\wlsy\pjproject-2.9\pjmedia\include\pjmedia-codec/g7221.h : warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+  g7221_sdp_match.c
+  g722_dec.c
+  g722_enc.c
+  gsm.c
+  h263_packetizer.c
+  h264_packetizer.c
+  ilbc.c
+  ipp_codecs.c
+  l16.c
+  opencore_amr.c
+  opus.c
+  passthrough.c
+  silk.c
+  speex_codec.c
+  Generating Code...
+  openh264.cpp
+  pjmedia_codec.vcxproj -> C:\MyProject\wlsy\pjproject-2.9\pjmedia\build\..\lib\pjmedia-codec-i386-Win32-vc14-Debug.lib
